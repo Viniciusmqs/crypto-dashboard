@@ -8,11 +8,10 @@ function Header() {
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <Image
-            src="/logo.png"
+            src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo"
             width="40"
             height="40"
             className="me-2"
-            alt="Logo"
             roundedCircle
           />
           CryptoDash
